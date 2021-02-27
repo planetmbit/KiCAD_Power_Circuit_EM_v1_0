@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SS352_H3FT
+D Diode Silicon Epitaxial Planar Type
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=3327&prodName=1SS352
+$ENDCMP
+#
+$CMP BC848B
+D BC848B
+F https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf
+$ENDCMP
+#
+$CMP INA199A1DCKT
+D 26V, bi-directional, zero-drift, low-/high-side, voltage output current sense amplifier
+F http://www.ti.com/lit/gpn/INA199
+$ENDCMP
+#
+$CMP INA199A1DCKT_v2
+D 26V, bi-directional, zero-drift, low-/high-side, voltage output current sense amplifier
+F http://www.ti.com/lit/gpn/INA199
+$ENDCMP
+#
+$CMP OP191GSZ
+D Analog Devices OP191GSZ Op Amp, 3MHz Rail-Rail, 3  9 V, 8-Pin SOIC
+F http://uk.rs-online.com/web/p/products/0427284P
+$ENDCMP
+#
+$CMP OP191GSZ_v2
+D Analog Devices OP191GSZ Op Amp, 3MHz Rail-Rail, 3  9 V, 8-Pin SOIC
+F http://uk.rs-online.com/web/p/products/0427284P
+$ENDCMP
+#
+$CMP OP291GSZ
+D Dual low power op amp,OP291GS SO8
+F http://uk.rs-online.com/web/p/products/5238468P
+$ENDCMP
+#
+$CMP OP291GSZ_v2
+D Dual low power op amp,OP291GS SO8
+F http://uk.rs-online.com/web/p/products/5238468P
+$ENDCMP
+#
+$CMP SISS23DN-T1-GE3
+D Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212
+F http://www.vishay.com/docs/62852/siss23dn.pdf
+$ENDCMP
+#
+#End Doc Library

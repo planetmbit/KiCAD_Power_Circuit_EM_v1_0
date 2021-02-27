@@ -1,0 +1,32 @@
+** Drc report for /Users/jamming6123/Documents/SpaceTech_GARAGE/KiCad/rsp02_LoadSW_OCP_Circuit_v1_2/rsp02_LoadSW_OCP_Circuit_v1_2.kicad_pcb **
+** Created on 2020-12-13 12:59:46 **
+
+** Found 8 DRC errors **
+ErrType(19): パッドがパッドに近すぎます
+    @(103.757 mm, 195.500 mm): パッド 9 - Q22 ( F.Cuその他 上)
+    @(104.635 mm, 194.510 mm): パッド 8 - Q22 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(103.957 mm, 212.400 mm): パッド 9 - Q13 ( F.Cuその他 上)
+    @(104.835 mm, 211.410 mm): パッド 8 - Q13 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(107.657 mm, 168.300 mm): パッド 9 - Q10 ( F.Cuその他 上)
+    @(108.535 mm, 167.310 mm): パッド 8 - Q10 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(108.433 mm, 142.775 mm): パッド 9 - Q7 ( F.Cuその他 上)
+    @(109.310 mm, 141.785 mm): パッド 8 - Q7 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(109.132 mm, 115.475 mm): パッド 9 - Q4 ( F.Cuその他 上)
+    @(110.010 mm, 114.485 mm): パッド 8 - Q4 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(110.058 mm, 61.025 mm): パッド 9 - Q19 ( F.Cuその他 上)
+    @(110.935 mm, 60.035 mm): パッド 8 - Q19 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(110.427 mm, 88.212 mm): パッド 9 - Q1 ( F.Cuその他 上)
+    @(111.305 mm, 87.222 mm): パッド 8 - Q1 ( F.Cuその他 上)
+ErrType(19): パッドがパッドに近すぎます
+    @(110.888 mm, 34.532 mm): パッド 9 - Q16 ( F.Cuその他 上)
+    @(111.765 mm, 33.542 mm): パッド 8 - Q16 ( F.Cuその他 上)
+
+** Found 0 unconnected pads **
+
+** End of Report **

@@ -1,0 +1,364 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x10
+#
+DEF Connector_Generic_Conn_01x10 J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "Connector_Generic_Conn_01x10" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 450 50 -550 1 1 10 f
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Potentiometer_Trim
+#
+DEF Device_R_Potentiometer_Trim RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_Potentiometer_Trim" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET_IRF7404
+#
+DEF Transistor_FET_IRF7404 Q 0 20 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET_IRF7404" 200 0 50 H V L CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
+F3 "" 0 0 50 V I L CNN
+ALIAS FDS9435A
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 0 1 0 90 0 50 15 50 -15 90 0 F
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X S 1 100 -200 100 U 50 50 1 1 P
+X S 2 100 -200 100 U 50 50 1 1 P N
+X S 3 100 -200 100 U 50 50 1 1 P N
+X G 4 -200 0 100 R 50 50 1 1 P
+X D 5 100 200 100 D 50 50 1 1 P N
+X D 6 100 200 100 D 50 50 1 1 P N
+X D 7 100 200 100 D 50 50 1 1 P N
+X D 8 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mypartsLib_1SS352_H3FT
+#
+DEF mypartsLib_1SS352_H3FT CR 0 -65 N N 1 L N
+F0 "CR" 200 175 50 H V C CNN
+F1 "mypartsLib_1SS352_H3FT" 200 -150 50 H V C CNN
+F2 "USC_TOS" 200 -250 50 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ USC_TOS
+ USC_TOS-M
+ USC_TOS-L
+$ENDFPLIST
+DRAW
+P 2 1 1 8 100 0 137 0 N
+P 2 1 1 8 125 0 150 0 N
+P 2 1 1 8 150 -75 250 0 N
+P 2 1 1 8 150 75 150 -75 N
+P 2 1 1 8 250 -75 250 75 N
+P 2 1 1 8 250 0 150 75 N
+P 2 1 1 8 250 0 300 0 N
+X cathode 1 400 0 100 L 59 59 1 1 B
+X anode 2 0 0 100 R 59 59 1 1 B
+ENDDRAW
+ENDDEF
+#
+# mypartsLib_BC848B
+#
+DEF mypartsLib_BC848B Q 0 40 Y Y 1 L N
+F0 "Q" 0 300 50 H V L CNN
+F1 "mypartsLib_BC848B" 0 400 50 H V L CNN
+F2 "Nexperia-SOT23-01_2019-0-*" 0 500 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BC848_SER.pdf" 0 600 50 H I L CNN
+F4 "+150°C" 0 700 50 H I L CNN "ambient temperature range high"
+F5 "-65°C" 0 800 50 H I L CNN "ambient temperature range low"
+F6 "Yes" 0 900 50 H I L CNN "automotive"
+F7 "Grade 0" 0 1000 50 H I L CNN "automotive grade"
+F8 "Trans" 0 1100 50 H I L CNN "category"
+F9 "30V" 0 1200 50 H I L CNN "collector base voltage"
+F10 "200mV" 0 1300 50 H I L CNN "collector emitter saturation voltage"
+F11 "30V" 0 1400 50 H I L CNN "collector emitter voltage"
+F12 "Discrete Semiconductors" 0 1500 50 H I L CNN "device class L1"
+F13 "Transistors" 0 1600 50 H I L CNN "device class L2"
+F14 "BJTs" 0 1700 50 H I L CNN "device class L3"
+F15 "TRANS NPN 30V 0.1A SOT23" 0 1800 50 H I L CNN "digikey description"
+F16 "1727-4241-1-ND" 0 1900 50 H I L CNN "digikey part number"
+F17 "5V" 0 2000 50 H I L CNN "emitter base voltage"
+F18 "https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf" 0 2100 50 H I L CNN "footprint url"
+F19 "450" 0 2200 50 H I L CNN "hFE max"
+F20 "200" 0 2300 50 H I L CNN "hFE min"
+F21 "2mA" 0 2400 50 H I L CNN "hFE testIC"
+F22 "5V" 0 2500 50 H I L CNN "hFE testVce"
+F23 "1.1mm" 0 2600 50 H I L CNN "height"
+F24 "SOT95P230X100-3" 0 2700 50 H I L CNN "ipc land pattern name"
+F25 "Yes" 0 2800 50 H I L CNN "lead free"
+F26 "85bbc30039169e11" 0 2900 50 H I L CNN "library id"
+F27 "Nexperia" 0 3000 50 H I L CNN "manufacturer"
+F28 "100mA" 0 3100 50 H I L CNN "max collector current"
+F29 "+150°C" 0 3200 50 H I L CNN "max junction temp"
+F30 "BC848 Series 30 V 100 mA SMT NPN General Purpose Transistor - SOT-23" 0 3300 50 H I L CNN "mouser description"
+F31 "771-BC848B215" 0 3400 50 H I L CNN "mouser part number"
+F32 "1" 0 3500 50 H I L CNN "number of NPN"
+F33 "1" 0 3600 50 H I L CNN "number of elements"
+F34 "SOT23" 0 3700 50 H I L CNN "package"
+F35 "250mW" 0 3800 50 H I L CNN "power dissipation"
+F36 "Yes" 0 3900 50 H I L CNN "rohs"
+F37 "500K/W" 0 4000 50 H I L CNN "rthja max"
+F38 "+150°C" 0 4100 50 H I L CNN "temperature range high"
+F39 "100MHz" 0 4200 50 H I L CNN "unity gain freq"
+DRAW
+P 2 1 1 0 200 -50 300 -100 N
+P 2 1 1 0 200 50 300 100 N
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 240 -90 260 -60 N
+P 2 1 1 0 240 -90 300 -100 N
+P 2 1 1 0 260 -60 300 -100 N
+X base 1 100 0 100 R 40 0 1 1 P
+X emitter 2 300 -200 100 U 40 0 1 1 P
+X collector 3 300 200 100 D 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mypartsLib_INA199A1DCKT_v2
+#
+DEF mypartsLib_INA199A1DCKT_v2 IC 0 30 Y Y 1 F N
+F0 "IC" 420 600 50 H V L CNN
+F1 "mypartsLib_INA199A1DCKT_v2" 430 510 50 H V L CNN
+F2 "SOT65P210X110-6N" 1250 50 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/INA199" 1250 -50 50 H I L CNN
+F4 "26V, bi-directional, zero-drift, low-/high-side, voltage output current sense amplifier" 1250 -150 50 H I L CNN "Description"
+F5 "1.1" 1250 -250 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -550 50 H I L CNN "Manufacturer_Name"
+F7 "INA199A1DCKT" 1250 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+C -240 -110 10 0 0 0 F
+C -240 90 10 0 0 0 F
+C 260 0 10 1 1 0 F
+T 0 -70 -75 39 0 0 0 + Normal 0 C C
+T 0 -70 85 39 0 0 0 - Normal 0 C C
+S 570 -460 -575 465 0 0 0 N
+P 2 0 0 0 -290 -110 -120 -110 N
+P 2 0 0 0 -290 90 -120 90 N
+P 2 0 0 0 50 -240 390 -240 N
+P 3 0 0 0 -240 -110 -240 -240 -50 -240 N
+P 3 0 0 0 -240 90 -240 290 -50 290 N
+P 5 0 0 0 50 290 260 290 260 0 390 0 180 0 N
+P 11 0 0 0 -390 90 -380 90 -370 110 -360 80 -350 110 -340 80 -330 110 -320 80 -310 110 -300 80 -290 90 N
+P 5 0 1 0 -120 100 -120 -180 180 0 -120 170 -120 100 N
+P 11 1 1 0 -390 -110 -380 -110 -370 -90 -360 -120 -350 -90 -340 -120 -330 -90 -320 -120 -310 -90 -300 -120 -290 -110 N
+P 11 1 1 0 -50 -240 -40 -240 -30 -220 -20 -250 -10 -220 0 -250 10 -220 20 -250 30 -220 40 -250 50 -240 N
+P 11 1 1 0 -50 290 -40 290 -30 310 -20 280 -10 310 0 280 10 310 20 280 30 310 40 280 50 290 N
+X REF 1 770 -240 200 L 50 50 0 0 P
+X GND 2 0 -660 200 U 50 50 0 0 P
+X V+ 3 0 670 200 D 50 50 0 0 P
+X IN+ 4 -780 -110 200 R 50 50 0 0 P
+X IN- 5 -780 90 200 R 50 50 0 0 P
+X OUT 6 770 -10 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# mypartsLib_OP191GSZ_v2
+#
+DEF mypartsLib_OP191GSZ_v2 IC 0 30 Y Y 1 F N
+F0 "IC" -50 750 50 H V L CNN
+F1 "mypartsLib_OP191GSZ_v2" -250 650 50 H V L CNN
+F2 "SOIC127P600X175-8N" 600 550 50 H I L CNN
+F3 "" 550 250 50 H I L CNN
+F4 "Analog Devices OP191GSZ Op Amp, 3MHz Rail-Rail, 3  9 V, 8-Pin SOIC" 600 350 50 H I L CNN "Description"
+F5 "1.75" 550 50 50 H I L CNN "Height"
+F6 "0427284P" 600 150 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/0427284P" 600 50 50 H I L CNN "RS Price/Stock"
+F8 "Analog Devices" 600 -50 50 H I L CNN "Manufacturer_Name"
+F9 "OP191GSZ" 600 -150 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S -300 600 300 -100 0 1 0 N
+P 4 0 1 0 -250 550 -250 50 250 300 -250 550 N
+X -INA 2 -450 200 200 R 50 50 0 0 I
+X +INA 3 -450 400 200 R 50 50 0 0 I
+X -V 4 250 -300 200 U 50 50 0 0 P
+X OUTA 6 450 300 200 L 50 50 0 0 O
+X +V 7 150 -300 200 U 50 50 0 0 P
+X NC 1 -200 -200 100 U 50 50 1 1 N
+X NC 5 -100 -200 100 U 50 50 1 1 N
+X NC 8 0 -200 100 U 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# mypartsLib_SISS23DN-T1-GE3
+#
+DEF mypartsLib_SISS23DN-T1-GE3 Q 0 30 Y Y 1 F N
+F0 "Q" 500 150 50 H V C CNN
+F1 "mypartsLib_SISS23DN-T1-GE3" 500 -450 50 H V C CNN
+F2 "POWERPAK-1212-8" 650 -650 50 H I C CNN
+F3 "http://www.vishay.com/docs/62852/siss23dn.pdf" 1250 -750 50 H I C CNN
+F4 "Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPAK 1212" 2100 -850 50 H I C CNN "Description"
+F5 "RS" 350 -950 50 H I C CNN "Supplier_Name"
+F6 "8141314" 450 -1050 50 H I C CNN "RS Part Number"
+F7 "Vishay" 400 -1150 50 H I C CNN "Manufacturer_Name"
+F8 "SISS23DN-T1-GE3" 650 -1250 50 H I C CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 800 -400 0 0 10 f
+X S(1) 1 0 0 200 R 50 50 0 0 B
+X S(2) 2 0 -100 200 R 50 50 0 0 B
+X S(3) 3 0 -200 200 R 50 50 0 0 B
+X G 4 0 -300 200 R 50 50 0 0 B
+X D(1) 5 1000 0 200 L 50 50 0 0 B
+X D(2) 6 1000 -100 200 L 50 50 0 0 B
+X D(3) 7 1000 -200 200 L 50 50 0 0 B
+X D(4) 8 1000 -300 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library
