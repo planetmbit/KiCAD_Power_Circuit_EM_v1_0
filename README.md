@@ -1,2 +1,2 @@
-# KiCAD_LoadSW_OCP_Circuit_v1_2
-This is Over Current Protection & Load Switch(w/ Current Sense) Circuit's KiCAD Repository (This belongs to the author and The LehmanSat Project.)
+# KiCAD_Power_Circuit_EM_v1_0
+This is the Power Circuit of Private Satellite EM(Engineering Model)'s KiCAD Repository (This belongs to the author and The Ryman Sat Project.)
