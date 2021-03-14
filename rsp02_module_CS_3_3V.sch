@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 17
+Sheet 11 20
 Title "rsp02_module_Current Sense_3_3V"
 Date "2020-12-07"
 Rev "V1.2"

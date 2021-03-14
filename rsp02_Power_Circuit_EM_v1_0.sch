@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 17
+Sheet 1 20
 Title "RSP-02 PCU EM"
 Date "2021-03-07"
 Rev "v0.1"
@@ -1588,4 +1588,10 @@ Wire Wire Line
 	10960 5100 13050 5100
 NoConn ~ 12590 5300
 NoConn ~ 12590 1100
+$Sheet
+S 6750 8650 1700 450 
+U 604EAD3C
+F0 "EM_base_Schematic" 50
+F1 "rsp.02_EM#001.sch" 50
+$EndSheet
 $EndSCHEMATC

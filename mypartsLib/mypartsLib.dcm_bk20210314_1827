@@ -45,35 +45,4 @@ D Vishay SISS23DN-T1-GE3 P-channel MOSFET Transistor, 27 A, -20 V, 8-Pin PowerPA
 F http://www.vishay.com/docs/62852/siss23dn.pdf
 $ENDCMP
 #
-#
-$CMP GCM155R71E223KA55
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP GCM188R71C105KA64
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP GCM21BR71C475KA73
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP GCM31CR71A226KE02
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP GCM32ER70J476KE19
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
 #End Doc Library
