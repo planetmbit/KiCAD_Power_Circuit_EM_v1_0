@@ -1594,4 +1594,478 @@ U 604EAD3C
 F0 "EM_base_Schematic" 50
 F1 "rsp.02_EM#001.sch" 50
 $EndSheet
+Wire Wire Line
+	1200 1400 1200 1450
+Text GLabel 1200 1450 3    47   Input ~ 0
+PV1(+)
+Wire Wire Line
+	1100 1400 1100 1450
+Text GLabel 1100 1450 3    47   Input ~ 0
+PV1(-)
+Wire Notes Line
+	950  1350 950  1800
+Wire Notes Line
+	950  1800 1350 1800
+Wire Notes Line
+	1350 1800 1350 1350
+Wire Notes Line
+	1350 1350 950  1350
+Text Notes 950  1350 0    50   ~ 0
+PVC#1
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F601F
+P 1550 1400
+AR Path="/604EAD3C/606F601F" Ref="JP?"  Part="1" 
+AR Path="/606F601F" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 1550 50  0000 C CNN
+F 1 "Jumper" V 1550 1550 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 1400 50  0001 C CNN
+F 3 "~" H 1550 1400 50  0001 C CNN
+	1    1550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1400 1100 1400
+Wire Wire Line
+	1450 1400 1200 1400
+Wire Wire Line
+	800  1400 800  2300
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F6028
+P 1550 2300
+AR Path="/604EAD3C/606F6028" Ref="JP?"  Part="1" 
+AR Path="/606F6028" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 2450 50  0000 C CNN
+F 1 "Jumper" V 1550 2450 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 2300 50  0001 C CNN
+F 3 "~" H 1550 2300 50  0001 C CNN
+	1    1550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2300 800  2300
+Connection ~ 800  2300
+Wire Notes Line
+	850  2500 850  900 
+Wire Wire Line
+	800  2300 800  3100
+Text Notes 850  2600 0    50   ~ 0
+PCU120 : PVC#2 MPPT Circuit
+Wire Wire Line
+	1200 3100 1200 3150
+Text GLabel 1200 3150 3    47   Input ~ 0
+PV2(+)
+Wire Wire Line
+	1100 3100 1100 3150
+Text GLabel 1100 3150 3    47   Input ~ 0
+PV2(-)
+Wire Notes Line
+	950  3050 950  3500
+Wire Notes Line
+	950  3500 1350 3500
+Wire Notes Line
+	1350 3500 1350 3050
+Wire Notes Line
+	1350 3050 950  3050
+Text Notes 950  3050 0    50   ~ 0
+PVC#2
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F603D
+P 1550 3100
+AR Path="/604EAD3C/606F603D" Ref="JP?"  Part="1" 
+AR Path="/606F603D" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 3250 50  0000 C CNN
+F 1 "Jumper" V 1550 3250 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 3100 50  0001 C CNN
+F 3 "~" H 1550 3100 50  0001 C CNN
+	1    1550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3100 1100 3100
+Wire Wire Line
+	1450 3100 1200 3100
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F6045
+P 1550 4000
+AR Path="/604EAD3C/606F6045" Ref="JP?"  Part="1" 
+AR Path="/606F6045" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 4150 50  0000 C CNN
+F 1 "Jumper" V 1550 4150 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 4000 50  0001 C CNN
+F 3 "~" H 1550 4000 50  0001 C CNN
+	1    1550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4000 800  4000
+Wire Notes Line
+	850  4200 850  2600
+Connection ~ 800  3100
+Wire Wire Line
+	800  3100 800  4000
+Connection ~ 800  4000
+Wire Wire Line
+	800  4000 800  4800
+Text Notes 850  4300 0    50   ~ 0
+PCU140 : PVC#3 MPPT Circuit
+Wire Wire Line
+	1200 4800 1200 4850
+Text GLabel 1200 4850 3    47   Input ~ 0
+PV3(+)
+Wire Wire Line
+	1100 4800 1100 4850
+Text GLabel 1100 4850 3    47   Input ~ 0
+PV3(-)
+Wire Notes Line
+	950  4750 950  5200
+Wire Notes Line
+	950  5200 1350 5200
+Wire Notes Line
+	1350 5200 1350 4750
+Wire Notes Line
+	1350 4750 950  4750
+Text Notes 950  4750 0    50   ~ 0
+PVC#3
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F605D
+P 1550 4800
+AR Path="/604EAD3C/606F605D" Ref="JP?"  Part="1" 
+AR Path="/606F605D" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 4950 50  0000 C CNN
+F 1 "Jumper" V 1550 4950 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 4800 50  0001 C CNN
+F 3 "~" H 1550 4800 50  0001 C CNN
+	1    1550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4800 1100 4800
+Wire Wire Line
+	1450 4800 1200 4800
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F6065
+P 1550 5700
+AR Path="/604EAD3C/606F6065" Ref="JP?"  Part="1" 
+AR Path="/606F6065" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 5850 50  0000 C CNN
+F 1 "Jumper" V 1550 5850 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 5700 50  0001 C CNN
+F 3 "~" H 1550 5700 50  0001 C CNN
+	1    1550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5700 800  5700
+Wire Notes Line
+	850  5900 850  4300
+Connection ~ 800  4800
+Wire Wire Line
+	800  4800 800  5700
+Connection ~ 800  5700
+Wire Wire Line
+	800  5700 800  6500
+Text Notes 850  6000 0    50   ~ 0
+PCU160 : PVC#4 MPPT Circuit
+Wire Wire Line
+	1200 6500 1200 6550
+Text GLabel 1200 6550 3    47   Input ~ 0
+PV4(+)
+Wire Wire Line
+	1100 6500 1100 6550
+Text GLabel 1100 6550 3    47   Input ~ 0
+PV4(-)
+Wire Notes Line
+	950  6450 950  6900
+Wire Notes Line
+	950  6900 1350 6900
+Wire Notes Line
+	1350 6900 1350 6450
+Wire Notes Line
+	1350 6450 950  6450
+Text Notes 950  6450 0    50   ~ 0
+PVC#4
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F607D
+P 1550 6500
+AR Path="/604EAD3C/606F607D" Ref="JP?"  Part="1" 
+AR Path="/606F607D" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 6650 50  0000 C CNN
+F 1 "Jumper" V 1550 6650 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 6500 50  0001 C CNN
+F 3 "~" H 1550 6500 50  0001 C CNN
+	1    1550 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6500 1100 6500
+Wire Wire Line
+	1450 6500 1200 6500
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F6085
+P 1550 7400
+AR Path="/604EAD3C/606F6085" Ref="JP?"  Part="1" 
+AR Path="/606F6085" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 7550 50  0000 C CNN
+F 1 "Jumper" V 1550 7550 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 7400 50  0001 C CNN
+F 3 "~" H 1550 7400 50  0001 C CNN
+	1    1550 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7400 800  7400
+Wire Notes Line
+	850  7600 850  6000
+Text Notes 850  7700 0    50   ~ 0
+PCU180 : PVC#5 MPPT Circuit
+Wire Wire Line
+	1200 8200 1200 8250
+Text GLabel 1200 8250 3    47   Input ~ 0
+PV5(+)
+Wire Wire Line
+	1100 8200 1100 8250
+Text GLabel 1100 8250 3    47   Input ~ 0
+PV5(-)
+Wire Notes Line
+	950  8150 950  8600
+Wire Notes Line
+	950  8600 1350 8600
+Wire Notes Line
+	1350 8600 1350 8150
+Wire Notes Line
+	1350 8150 950  8150
+Text Notes 950  8150 0    50   ~ 0
+PVC#5
+$Comp
+L mypartsLib:Jumper_NO_Small-Device JP?
+U 1 1 606F6099
+P 1550 8200
+AR Path="/604EAD3C/606F6099" Ref="JP?"  Part="1" 
+AR Path="/606F6099" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1550 8350 50  0000 C CNN
+F 1 "Jumper" V 1550 8350 50  0001 C CNN
+F 2 "Connectors:GS2" H 1550 8200 50  0001 C CNN
+F 3 "~" H 1550 8200 50  0001 C CNN
+	1    1550 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  8200 1100 8200
+Wire Wire Line
+	1450 8200 1200 8200
+Wire Notes Line
+	850  9300 850  7700
+Connection ~ 800  6500
+Wire Wire Line
+	800  6500 800  7400
+Connection ~ 800  7400
+Wire Wire Line
+	800  7400 800  8200
+Connection ~ 800  8200
+Wire Wire Line
+	800  8200 800  9100
+Text Notes 850  900  0    50   ~ 0
+PCU100 : PVC#1 MPPT Circuit
+$Sheet
+S 5250 1450 750  350 
+U 60A4AB90
+F0 "PVC1_Ideal_Diode" 50
+F1 "rsp02_module_Ideal_Diode.sch" 50
+F2 "Anode" I L 5250 1550 50 
+F3 "GND" I L 5250 1700 50 
+F4 "Cathode" O R 6000 1550 50 
+$EndSheet
+$Sheet
+S 3550 1450 800  350 
+U 606F82CB
+F0 "PVC1_MPPT_Circuit" 50
+F1 "rsp02_module_MPPT.sch" 50
+F2 "GND" I L 3550 1700 50 
+F3 "PVIN" I L 3550 1550 50 
+F4 "VOUT" O R 4350 1550 50 
+$EndSheet
+$Comp
+L mypartsLib:Jumper_NC_Small-Device JP?
+U 1 1 60BD6262
+P 4800 1550
+F 0 "JP?" H 4800 1762 50  0000 C CNN
+F 1 "Jumper_NC_Small-Device" H 4800 1650 50  0001 C CNN
+F 2 "" H 4800 1550 50  0001 C CNN
+F 3 "" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1550 4350 1550
+Wire Wire Line
+	4900 1550 5250 1550
+Wire Wire Line
+	5100 1700 5250 1700
+$Comp
+L power:GNDD #PWR?
+U 1 1 60D0A898
+P 9850 10550
+F 0 "#PWR?" H 9850 10300 50  0001 C CNN
+F 1 "GNDD" V 9850 10350 50  0000 C CNN
+F 2 "" H 9850 10550 50  0001 C CNN
+F 3 "" H 9850 10550 50  0001 C CNN
+	1    9850 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D0A89E
+P 9700 10550
+AR Path="/604EAD3C/60D0A89E" Ref="#PWR?"  Part="1" 
+AR Path="/60D0A89E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9700 10300 50  0001 C CNN
+F 1 "GND" V 9700 10350 50  0000 C CNN
+F 2 "" H 9700 10550 50  0001 C CNN
+F 3 "" H 9700 10550 50  0001 C CNN
+	1    9700 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 10450 9700 10550
+Wire Wire Line
+	9700 10450 9850 10550
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 60D0A8A6
+P 10800 10650
+F 0 "H?" V 10750 10800 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10850 10800 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10800 10650 50  0001 C CNN
+F 3 "~" H 10800 10650 50  0001 C CNN
+	1    10800 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D0A8AC
+P 10800 10750
+F 0 "#PWR?" H 10800 10500 50  0001 C CNN
+F 1 "GND" V 10800 10550 50  0000 C CNN
+F 2 "" H 10800 10750 50  0001 C CNN
+F 3 "" H 10800 10750 50  0001 C CNN
+	1    10800 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60D0A8B2
+P 11000 10600
+F 0 "H?" V 10950 10700 50  0000 L CNN
+F 1 "MountingHole" V 11050 10700 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 11000 10600 50  0001 C CNN
+F 3 "~" H 11000 10600 50  0001 C CNN
+	1    11000 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60D0A8B8
+P 11200 10600
+F 0 "H?" V 11150 10700 50  0000 L CNN
+F 1 "MountingHole" V 11250 10700 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 11200 10600 50  0001 C CNN
+F 3 "~" H 11200 10600 50  0001 C CNN
+	1    11200 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60D0A8BE
+P 11400 10600
+F 0 "H?" V 11350 10700 50  0000 L CNN
+F 1 "MountingHole" V 11450 10700 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 11400 10600 50  0001 C CNN
+F 3 "~" H 11400 10600 50  0001 C CNN
+	1    11400 10600
+	1    0    0    -1  
+$EndComp
+Text Notes 10650 10850 1    50   ~ 0
+1-point GND to \n Satellite body structure.\nNo other GND pts shall be \n grounded to the body.
+Text Notes 9450 10950 1    50   ~ 0
+1-point connection \namong all type of grounds.
+$Comp
+L power:Earth #PWR?
+U 1 1 60D0A8C6
+P 10950 10750
+F 0 "#PWR?" H 10950 10500 50  0001 C CNN
+F 1 "Earth" H 10950 10600 50  0001 C CNN
+F 2 "" H 10950 10750 50  0001 C CNN
+F 3 "~" H 10950 10750 50  0001 C CNN
+	1    10950 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 10750 10800 10750
+Connection ~ 10800 10750
+Wire Wire Line
+	9700 10450 9550 10550
+$Comp
+L power:GNDA #PWR?
+U 1 1 60D0A8CF
+P 9550 10550
+F 0 "#PWR?" H 9550 10300 50  0001 C CNN
+F 1 "GNDA" V 9550 10350 50  0000 C CNN
+F 2 "" H 9550 10550 50  0001 C CNN
+F 3 "" H 9550 10550 50  0001 C CNN
+	1    9550 10550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 10450
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60D0A8D6
+P 9700 10450
+F 0 "#FLG?" H 9700 10525 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 10623 50  0000 C CNN
+F 2 "" H 9700 10450 50  0001 C CNN
+F 3 "~" H 9700 10450 50  0001 C CNN
+	1    9700 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D1DC8E
+P 3400 1900
+AR Path="/604EAD3C/60D1DC8E" Ref="#PWR?"  Part="1" 
+AR Path="/60D1DC8E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1650 50  0001 C CNN
+F 1 "GND" V 3400 1700 50  0000 C CNN
+F 2 "" H 3400 1900 50  0001 C CNN
+F 3 "" H 3400 1900 50  0001 C CNN
+	1    3400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1900 3400 1700
+Wire Wire Line
+	3400 1700 3550 1700
+$Comp
+L power:GND #PWR?
+U 1 1 60DC6A66
+P 5100 1900
+AR Path="/604EAD3C/60DC6A66" Ref="#PWR?"  Part="1" 
+AR Path="/60DC6A66" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 1650 50  0001 C CNN
+F 1 "GND" V 5100 1700 50  0000 C CNN
+F 2 "" H 5100 1900 50  0001 C CNN
+F 3 "" H 5100 1900 50  0001 C CNN
+	1    5100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1900 5100 1700
 $EndSCHEMATC
