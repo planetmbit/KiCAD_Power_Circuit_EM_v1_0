@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 20
+Sheet 8 33
 Title "rsp02_module_LoadSW_OCP_3_3V"
 Date "2021-03-07"
 Rev "v1.3"

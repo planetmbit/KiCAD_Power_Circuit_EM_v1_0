@@ -504,4 +504,24 @@ X G 4 -200 0 200 R 50 50 1 1 I
 X D 5 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
+#
+# Li-ion_Battery
+#
+DEF Li-ion_Battery BT 0 0 N Y 1 F N
+F0 "BT" 150 200 60 H V C CNN
+F1 "Li-ion_Battery" 150 -50 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 0 0 40 40 0 0 0 IC Normal 0 C C
+S 50 0 -50 100 0 1 0 N
+S 100 -200 -100 150 0 1 10 f
+P 2 0 1 10 -50 -75 50 -75 N
+P 2 0 1 15 -25 -100 25 -100 N
+P 2 0 1 0 0 -100 0 -150 N
+P 2 0 1 0 0 -75 0 -25 N
+X - 1 0 -300 100 U 50 50 1 1 P
+X + 2 0 250 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #End Library

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 18 20
+Sheet 18 33
 Title "RSP-02 PCU EM"
 Date "2021-02-27"
 Rev ""
@@ -1467,7 +1467,7 @@ Connection ~ 12650 1100
 Connection ~ 11100 1100
 $Comp
 L Device:R R?
-U 1 1 62DD8487
+U 1 1 6051F955
 P 6050 1850
 F 0 "R?" V 6150 1750 50  0000 L CNN
 F 1 "1M" V 6050 1800 50  0000 L CNN
